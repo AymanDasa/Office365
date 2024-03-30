@@ -83,8 +83,8 @@ if($page_level==0){$xroot='';}else{$xroot='../';}
           </li> 
         <!-- #### Ship #### --> 
 		<li class="nav-item">
-			<a href="<?php echo $path;?>ship/index.php" class="nav-link">
-				<i class="nav-icon fas fa-ship"></i> Vessels
+			<a href="<?php echo $path;?>emp/index.php" class="nav-link">
+				<i class="nav-icon fas fa-ship"></i> Employee
 			</a>
 		</li>
 
