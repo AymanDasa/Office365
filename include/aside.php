@@ -62,7 +62,7 @@ if($page_level==0){$xroot='';}else{$xroot='../';}
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-file-lines"></i>
               <p>
-                Invoice
+                Licences
                 <i class="right fas fa-angle-left"></i>
               </p>
             </a>

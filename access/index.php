@@ -2,7 +2,8 @@
 <?php 
 				$page=1;
 				$ROOT='../demo1/dist/'; 
-				Require_once('C://wow//password//db.php'); 
+				$db_file='office365';
+				Require_once('C://wow//password//'.$db_file.'.php'); 
 					// ********************************************************************************  
 					// Initialize the session 
 					// Check if the user is already logged in, if yes then redirect him to welcome page
@@ -64,7 +65,9 @@
 										$_SESSION["f_name"] = $f_name;   
 										$_SESSION["l_name"] = $l_name;         
 										$_SESSION["data6"] = '';  
-										$_SESSION["Activate2FA"] = $Activate2FA;  
+										$_SESSION["Activate2FA"] = $Activate2FA;
+										
+										  
 										     
 										// Redirect user to 2fa page
 										
