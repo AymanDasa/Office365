@@ -69,8 +69,7 @@
   </aside>
   <!-- /.control-sidebar -->
 </div>
-<!-- ./wrapper -->
-
+<!-- ./wrapper --> 
 <!-- jQuery -->
 <?php include("include/scripts.php")?>   
 </body>
